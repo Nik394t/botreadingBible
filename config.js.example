@@ -1,0 +1,19 @@
+// Конфигурация Telegram бота
+module.exports = {
+    // Токен бота от @BotFather
+    BOT_TOKEN: 'YOUR_BOT_TOKEN_HERE',
+    
+    // ID группы для уведомлений (опционально)
+    // Получить можно через https://api.telegram.org/bot<TOKEN>/getUpdates
+    GROUP_CHAT_ID: 'YOUR_GROUP_CHAT_ID_HERE'
+};
+
+// Для использования переменных окружения раскомментируйте:
+/*
+require('dotenv').config();
+
+module.exports = {
+    BOT_TOKEN: process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE',
+    GROUP_CHAT_ID: process.env.GROUP_CHAT_ID || 'YOUR_GROUP_CHAT_ID_HERE'
+};
+*/

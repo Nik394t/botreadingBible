@@ -1,0 +1,41 @@
+{
+  "name": "bible-reading-bot",
+  "version": "2.0.0",
+  "description": "Telegram bot for daily Bible reading plan (365 days)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "node test_bot.js",
+    "setup": "npm install && chmod +x start_bot.sh"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.6",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "telegram",
+    "bot", 
+    "bible",
+    "reading",
+    "plan",
+    "christian",
+    "daily",
+    "scripture",
+    "365-days"
+  ],
+  "author": "Bible Reading Plan Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bible-reading-bot"
+  }
+}
