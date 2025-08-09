@@ -7,8 +7,8 @@ const path = require('path');
 
 // Конфигурация
 const config = require('./config.js');
-const BOT_TOKEN = config.BOT_TOKEN;
-const GROUP_CHAT_ID = config.GROUP_CHAT_ID;
+const BOT_TOKEN = '8275285179:AAGXtVvUm4EQr5lKPeZXe--5nme2JormUyA';
+const GROUP_CHAT_ID = '-4888364969';
 
 // Создаем бота
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
